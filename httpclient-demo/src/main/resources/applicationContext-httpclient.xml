@@ -32,7 +32,7 @@
 	</bean>
 	
 	<!-- 得到httpClient的实例 -->
-	<bean id="httpClient" factory-bean="httpClientBuilder" factory-method="build"/>
+	<bean id="httpClient" factory-bean="httpClientBuilder" factory-method="build" scope="prototype"/>
 	
 	<!-- 定期清理无效的连接 -->
 	<bean class="spring.handler.IdleConnectionEvictor" destroy-method="shutdown">

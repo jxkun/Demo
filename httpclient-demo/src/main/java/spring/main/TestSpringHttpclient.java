@@ -19,7 +19,6 @@ public class TestSpringHttpclient {
     public void testHttpClient(){
         HttpClient bean1 = context.getBean(HttpClient.class);
         HttpClient bean2 = context.getBean(HttpClient.class);
-        System.out.println("com");
         System.out.println(bean1 == bean2);
     }
 }
