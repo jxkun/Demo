@@ -9,6 +9,7 @@
   <modules>
     <module>activemq-demo</module>
     <module>httpclient-demo</module>
+      <module>design-patterns</module>
   </modules>
 
   <name>Demo</name>
